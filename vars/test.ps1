@@ -24,10 +24,10 @@ Copy-Item -Path "$appname.war" -Destination "$Webapp_Path\$appname.war" -ToSessi
 
 }
 
-catch (e)
+catch
 
 {
 
-       throw e
+     write-host "error in transaction"
 
 }
