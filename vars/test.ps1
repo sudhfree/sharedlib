@@ -16,6 +16,11 @@ $cred = New-Object System.Management.Automation.PSCredential("Administrator", $s
 
 try {
 
+write-host $ComputerName
+write-host $WorkSpace
+write-host $Webapp_Path
+write-host $appname
+
 $session = New-PSSession -ComputerName $ComputerName -Credential $cred
 
 
