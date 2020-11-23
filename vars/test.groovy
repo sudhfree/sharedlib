@@ -1,4 +1,4 @@
-call()
+def call()
 {
 
 def agent= null
